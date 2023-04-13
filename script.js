@@ -1,11 +1,9 @@
-//your JS code here. If required.
-
-function submit() {
-var fname= document.getElementById("fname").value;
-var lname=document.getElementById("lname").value;
-var phone=document.getElementById("number").value;
-var email=document.getElementById("email").value;
-
-	alert(`First Name: ${fname}\nLast Name: ${lname}\nPhone Number: ${phone}\nEmail ID: ${email}`);
-	
+function myfunction(){
+	var fname=document.getElementById("firstname").value;
+	var lname=document.getElementById("lastname").value;
+	var pno=document.getElementById("phone").value;
+	var email=document.getElementById("mail").value;
+	cost btn=document.getElementById("btn");
+	btn.style.backgroundColor='blue';
+	alert(`First Name: ${fname}\nLast Name: ${lname}\nPhone Number: ${pno}\nEmail ID: ${email}`);
 }
