@@ -6,6 +6,6 @@ const lname=document.getElementById("lname").value;
 const phone=document.getElementById("number").value;
 const email=document.getElementById("email").value;
 
-	alert(fname+lname+phone+email);
+	alert(`First Name: ${fname}\nLast Name: ${lname}\nPhone Number: ${phone}\nEmail ID: ${email}`);
 	
 }
