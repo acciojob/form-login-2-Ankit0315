@@ -8,16 +8,18 @@
 
 <body>
 <form>
-		<label>First Name:</label>
-		<input type="text" name="firstname" id="firstname" required><br>
-		<label>Last Name:</label>
-		<input type="text" name="lastname" id="lastname" required><br>
-		<label>Phone Number:</label>
-		<input type="tel" name="phone" id="phone" pattern="[0-9]{10}" required><br>
-		<label>Email ID:</label>
-		<input type="email" name="mail" id="mail" required><br>
-		<button type="button" id="btn" onclick="myfunction()" >Submit</button
-    <script type="text/javascript" src="./script.js">
+		<form>
+		First Name: <input type="text" name="First Name" id="text1">
+		<br>
+		LastName: <input type="text" name="Last Name" id="text2">
+		<br>
+		Phone Number: <input type="number" name="Phone Number" id="num">
+		<br>
+		Email ID: <input type="email" name="Email ID" id="mail">
+		<br>
+		<button onclick="AlertFunction()">Submit</button>
+	</form>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
