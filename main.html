@@ -7,20 +7,18 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<lable for="name">First Name:</lable>
-		<input type="text" id="fname">
-	<br>
-	<lable for="name">Last Name:</lable>
-		<input type="text" id="lname">
-	<br>
-	<lable for="name">Phone Number:</lable>
-		<input type="number" id="number">
-	<br>
-	<lable for="name">Email ID:</lable>
-		<input type="email" id="email">
-	<br>
-	<button type="button" onclick="submit()">Submit
+<form>
+		<label>First Name:</label>
+		<input type="text" name="firstname" id="firstname" required><br>
+		<label>Last Name:</label>
+		<input type="text" name="lastname" id="lastname" required><br>
+		<label>Phone Number:</label>
+		<input type="number" name="phone" id="phone" pattern="[0-9]{10}" required><br>
+		<label>Email ID:</label>
+		<input type="email" name="mail" id="mail" required><br>
+		<button type="button" id="btn" onclick="submit()">Submit</button>
+
+</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
